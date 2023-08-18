@@ -1,0 +1,103 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: rgb(117, 168, 168);
+  }
+
+  header {
+    background: url(image/Palais_sans-s.jpg);
+    background-color: #10214f;
+    color: #fff;
+    padding: 20px;
+    position: relative;
+    margin-bottom: 50px;
+  }
+
+  #rest{
+    width: 100px;
+    height:80px;
+  }
+
+  #YES{
+    background-color: rgb(248, 245, 245);
+    width: 1000px;
+    border-radius: 0.5em;
+    color: rgb(4, 4, 82);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 4em;
+    text-align-last: center;
+  }
+
+  footer{
+    position: bottom fixed;
+    margin-top: 10em;
+  }
+
+  #sect{
+    text-align: center;
+  }
+
+h1 {
+    animation-name: pulsation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes pulsation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
+
+#connexion {
+    margin-top: 50px;
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    width: 400px;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  
+  #connexion h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  #connexion label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #connexion input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  #connexion input[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #connexion input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
